@@ -49,23 +49,25 @@ There is a gulp watch task that compiles the js and css whenever they are touche
 	</html>
 ```
 * create gulpfile.js in /
-* run gulp.  touch the scss and the js so that they compile
+* gulp
 
 
 <h4>git</h4>
 * git init
 * add .gitignore with contents
+```
 	/node_modules/*
 	**/node_modules/*
 	**/bower_components/*
 	*.sassc
 	/public/css/style.css
 	/public/js/main.js
+```
 * git add .
 * git commit -m "initial"
 
 <h4>git hub</h4>
-* create new repositoyr
+* create new repository
 * follow instructions
 	- git remote add origin https://github.com/marcb40/my-angular2.git
 	- git push -u origin master
