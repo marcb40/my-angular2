@@ -22,7 +22,14 @@
 	*.sassc
 	/public/css/style.css
 	/public/js/main.js
+* git add .
+* git commit -m "initial"
 
+**** git hub ** 
+* create new repositoyr
+* follow instructions
+	- git remote add origin https://github.com/marcb40/my-angular2.git
+	- git push -u origin master
 
 
 
