@@ -50,4 +50,4 @@ gulp.task('watch', function() {
     gulp.watch('app/sass/style.scss', ['sass'])
 })
 
-gulp.task('default', ['connect', 'watch'])
+gulp.task('default', ['connect', 'watch', 'sass', 'browserify'])

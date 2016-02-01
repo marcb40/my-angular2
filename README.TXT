@@ -2,6 +2,17 @@ This is a bare-bones project with instructions of how to create an AngularJS app
 
 There is a gulp watch task that compiles the js and css whenever they are touched.  AngularJS and bootstrap are included in your js/css respectively so the index.html file only needs to point to one js and one css.
 
+**** to run this app ***
+* git clone  "https://github.com/marcb40/my-angular2.git" "C:\workspace\my-angular2"
+* cd to this dir
+* npm install
+* bower install
+* gulp
+* navigate to http://localhost:8888
+
+
+Here are instructions on how this project was created from scratch
+
 
 ***** setup *****
 * npm init
@@ -12,7 +23,7 @@ There is a gulp watch task that compiles the js and css whenever they are touche
 		{
 		  "directory": "app/bower_components"
 		}
-* npm install gulp bower gulp-connect angular angular-animate angular-route --save (because browserify 'require angular' looks for it in the npm components)
+* npm install gulp bower gulp-connect angular angular-animate angular-route --save
 * npm install gulp-sass browserify vinyl-source-stream --save-dev
 * bower install jquery animate.css bootstrap bootstrap-sass fontawesome --save
 
