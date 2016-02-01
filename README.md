@@ -2,7 +2,7 @@ This is a bare-bones project with instructions of how to create an AngularJS app
 
 There is a gulp watch task that compiles the js and css whenever they are touched.  AngularJS and bootstrap are included in your js/css respectively so the index.html file only needs to point to one js and one css.
 
-**** to run this app ***
+<h2> To run this app </h2>
 * git clone  "https://github.com/marcb40/my-angular2.git" "C:\workspace\my-angular2"
 * cd to this dir
 * npm install
@@ -11,10 +11,10 @@ There is a gulp watch task that compiles the js and css whenever they are touche
 * navigate to http://localhost:8888
 
 
-Here are instructions on how this project was created from scratch
+<h2>Here are instructions on how this project was created from scratch</h2>
 
 
-***** setup *****
+<h4>Setup</h4>
 * npm init
 * bower init
 * modify ignore list to have app/bower_components",
@@ -27,10 +27,11 @@ Here are instructions on how this project was created from scratch
 * npm install gulp-sass browserify vinyl-source-stream --save-dev
 * bower install jquery animate.css bootstrap bootstrap-sass fontawesome --save
 
-****** create app ******
+<h4>create app</h4>
 * create style.scss in /app/sass
 * create main.js in /app/js
 * create index.html in /public with content
+```
 	<!DOCTYPE html>
 	<html ng-app="SampleApp">
 	  <head lang="en">
@@ -46,11 +47,12 @@ Here are instructions on how this project was created from scratch
 	    <script src="js/main.js"></script>
 	  </body>
 	</html>
+```
 * create gulpfile.js in /
 * run gulp.  touch the scss and the js so that they compile
 
 
-**** git ****
+<h4>git</h4>
 * git init
 * add .gitignore with contents
 	/node_modules/*
@@ -62,7 +64,7 @@ Here are instructions on how this project was created from scratch
 * git add .
 * git commit -m "initial"
 
-**** git hub ** 
+<h4>git hub</h4>
 * create new repositoyr
 * follow instructions
 	- git remote add origin https://github.com/marcb40/my-angular2.git
